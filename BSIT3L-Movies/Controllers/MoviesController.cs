@@ -14,11 +14,11 @@ namespace BSIT3L_Movies.Controllers
         {
            new MovieViewModel { Id = 1, Name ="Inception", Rating = "4", ReleaseYear = 2010, Genre = "Action/Adventure/Sci-fi",Image = "~/images/inception.jpg"},
             new MovieViewModel { Id = 2, Name = "12 Angry Men", Rating = "5", ReleaseYear = 1957, Genre = "Crime, Drama" , Image = "~/images/12 angry men.jpg" },
-            new MovieViewModel { Id = 3, Name = "The God Father", Rating = "5", ReleaseYear = 1972, Genre = "Crime, Drama" ,Image = "~/images/the god father.jpg" },
+            new MovieViewModel { Id = 3, Name = "The God Father", Rating = "5", ReleaseYear = 1972, Genre = "Crime, Drama" ,Image = "~/images/the godfather.jpg" },
             new MovieViewModel { Id = 4, Name = "Schindler's List", Rating = "5", ReleaseYear = 1993, Genre = "Biography, Drama", Image = "~/images/schindler's list.jpg"},
             new MovieViewModel { Id = 5, Name = "Raging Bull", Rating = "4", ReleaseYear = 1980, Genre = "Sport, Drama", Image = "~/images/raging bull.jpg"},
             new MovieViewModel { Id = 6, Name = "Platoon", Rating = "5", ReleaseYear = 1986, Genre = "War, Drama", Image = "~/images/platoon.jpg"},
-            new MovieViewModel { Id = 7, Name = "High noon", Rating = "4", ReleaseYear = 1952, Genre = "Drama", Image = "~/high noon.jpg"},
+            new MovieViewModel { Id = 7, Name = "High noon", Rating = "4", ReleaseYear = 1952, Genre = "Drama", Image = "~/images/high noon.jpg"},
             new MovieViewModel { Id = 8, Name = "The Pianist", Rating = "4", ReleaseYear = 2002, Genre = "Music, Drama", Image = "~/images/the pianist.jpg"},
             new MovieViewModel { Id = 9, Name = "Godfellas", Rating = "5", ReleaseYear = 1990, Genre = "Crime, Drama", Image ="~/images/godfellas.jpg" },
             new MovieViewModel { Id = 10, Name = "The Dark knight", Rating = "5", ReleaseYear = 2008, Genre = "Action, Drama", Image = "~/images/the dark knight.jpg" },

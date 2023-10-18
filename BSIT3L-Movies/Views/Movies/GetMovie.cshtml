@@ -7,11 +7,19 @@
     <title>Movie</title>
 </head>
 <body>
-    <h2>Movie Details</h2>
-    <p>Movie ID: @Model.Id</p>
-    <p>Movie Name: @Model.Name</p>
-    <p>Rating: @Model.Rating</p>
-    <p>Release Year: @Model.ReleaseYear</p>
-    <p>Genre: @Model.Genre</p>
+   <div class="getmovieTitle">
+    <div class="getmovieImage"><img src="@Url.Content(Model.Image)" alt="Product Image" /></div>
+    <div class="getmovieDetails">
+        <h2>Movie Details</h2>
+        <p>Movie Name</p>
+            <p1>@Model.Name</p1>
+        <p>Rating</p>
+            <p1>@Model.Rating</p1>
+        <p>Release Year</p>
+            <p1>@Model.ReleaseYear</p1>
+        <p>Genre</p>
+            <p1>@Model.Genre</p1>
+    </div>
+    </div>
 </body>
 </html>
